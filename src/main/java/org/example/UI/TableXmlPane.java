@@ -71,6 +71,7 @@ public class TableXmlPane extends JPanel implements ActionListener {
 
                 XmlOperations<RootXml> operations = new XmlOperations<>();
                 operations.exportXML(statResponseRootXml, outputFile, RootXml.class, StatResponse.class);
+                Dialogs.showExportInformation();
             }
 
 

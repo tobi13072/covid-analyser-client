@@ -73,6 +73,8 @@ public class TableJsonPane extends JPanel implements ActionListener {
 
                 JsonOperations<StatResponse> jsonOperations = new JsonOperations<>();
                 jsonOperations.exportJson(stats, outputFile);
+
+                Dialogs.showExportInformation();
             }
 
 
