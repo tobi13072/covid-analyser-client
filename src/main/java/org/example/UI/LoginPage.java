@@ -19,7 +19,7 @@ public class LoginPage extends JPanel implements ActionListener {
     private HomePage home;
 
 
-    public LoginPage(HomePage home){
+    public LoginPage(HomePage home) {
         this.home = home;
         loginButton.addActionListener(this);
     }
@@ -29,18 +29,18 @@ public class LoginPage extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
 
-        if(source.equals(loginButton)){
+        if (source.equals(loginButton)) {
 
             Connection conn = new Connection();
             String username = loginField.getText();
             String pass = passwordField.getText();
 
-            Integer statusCode = conn.login(username,pass);
+            Integer statusCode = conn.login(username, pass);
 
-            if(statusCode.equals(200)){
+            if (statusCode.equals(200)) {
                 home.backToHome();
-            }else
-            {
+                home.setTitle(home.TITLE + " [" + username + "]");
+            } else {
                 Dialogs.showFailedLoginDialog();
             }
         }

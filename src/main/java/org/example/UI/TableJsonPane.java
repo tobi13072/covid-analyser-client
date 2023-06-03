@@ -126,12 +126,12 @@ public class TableJsonPane extends JPanel implements ActionListener {
             }
         };
 
-        model.addColumn("country");
-        model.addColumn("population");
-        model.addColumn("total cases");
-        model.addColumn("total deaths");
-        model.addColumn("total recovered");
-        model.addColumn("active cases");
+        model.addColumn("Country");
+        model.addColumn("Population");
+        model.addColumn("Total cases");
+        model.addColumn("Total deaths");
+        model.addColumn("Total recovered");
+        model.addColumn("Active cases");
 
         JTable table = new JTable(model);
         tableScrollPane.setViewportView(table);

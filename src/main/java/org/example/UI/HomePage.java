@@ -22,9 +22,10 @@ public class HomePage extends JFrame implements ActionListener {
     private JButton jsonOperationsButton;
     private JButton exitButton;
     private LoginPage login;
+    public final String TITLE = "COVID ANALYSER";
 
     public HomePage() throws IOException {
-        setTitle("COVID ANALYSER");
+        setTitle(TITLE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -60,7 +61,7 @@ public class HomePage extends JFrame implements ActionListener {
         } else if (source.equals(exitButton)) {
 
             setContentPane(login.getLoginPanel());
-
+            setTitle(TITLE);
             File file = new File("token.txt");
             if (file.exists()) {
                 file.delete();
