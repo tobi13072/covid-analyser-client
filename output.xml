@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rootXml>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>180931</activeAccess>
+        <country>
+            <countryId>4</countryId>
+            <countryName>Russia</countryName>
+        </country>
+        <countryPopulation>145940924</countryPopulation>
+        <statId>4</statId>
+        <totalCases>871894</totalCases>
+        <totalDeaths>14606</totalDeaths>
+        <totalRecovered>676357</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>0</activeAccess>
+        <country>
+            <countryId>10</countryId>
+            <countryName>Spain</countryName>
+        </country>
+        <countryPopulation>46756648</countryPopulation>
+        <statId>10</statId>
+        <totalCases>354530</totalCases>
+        <totalDeaths>28500</totalDeaths>
+        <totalRecovered>0</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>0</activeAccess>
+        <country>
+            <countryId>12</countryId>
+            <countryName>UK</countryName>
+        </country>
+        <countryPopulation>67922029</countryPopulation>
+        <statId>12</statId>
+        <totalCases>308134</totalCases>
+        <totalDeaths>46413</totalDeaths>
+        <totalRecovered>0</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>12694</activeAccess>
+        <country>
+            <countryId>16</countryId>
+            <countryName>Italy</countryName>
+        </country>
+        <countryPopulation>60452568</countryPopulation>
+        <statId>16</statId>
+        <totalCases>249204</totalCases>
+        <totalDeaths>35187</totalDeaths>
+        <totalRecovered>201323</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>9758</activeAccess>
+        <country>
+            <countryId>19</countryId>
+            <countryName>Germany</countryName>
+        </country>
+        <countryPopulation>83811260</countryPopulation>
+        <statId>19</statId>
+        <totalCases>215210</totalCases>
+        <totalDeaths>9252</totalDeaths>
+        <totalRecovered>196200</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>82861</activeAccess>
+        <country>
+            <countryId>20</countryId>
+            <countryName>France</countryName>
+        </country>
+        <countryPopulation>65288306</countryPopulation>
+        <statId>20</statId>
+        <totalCases>195633</totalCases>
+        <totalDeaths>30312</totalDeaths>
+        <totalRecovered>82460</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>0</activeAccess>
+        <country>
+            <countryId>30</countryId>
+            <countryName>Sweden</countryName>
+        </country>
+        <countryPopulation>10105596</countryPopulation>
+        <statId>30</statId>
+        <totalCases>81967</totalCases>
+        <totalDeaths>5766</totalDeaths>
+        <totalRecovered>0</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>32465</activeAccess>
+        <country>
+            <countryId>33</countryId>
+            <countryName>Ukraine</countryName>
+        </country>
+        <countryPopulation>43705858</countryPopulation>
+        <statId>33</statId>
+        <totalCases>76808</totalCases>
+        <totalDeaths>1819</totalDeaths>
+        <totalRecovered>42524</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>43638</activeAccess>
+        <country>
+            <countryId>36</countryId>
+            <countryName>Belgium</countryName>
+        </country>
+        <countryPopulation>11594739</countryPopulation>
+        <statId>36</statId>
+        <totalCases>71158</totalCases>
+        <totalDeaths>9859</totalDeaths>
+        <totalRecovered>17661</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>4167</activeAccess>
+        <country>
+            <countryId>38</countryId>
+            <countryName>Belarus</countryName>
+        </country>
+        <countryPopulation>9449001</countryPopulation>
+        <statId>38</statId>
+        <totalCases>68503</totalCases>
+        <totalDeaths>580</totalDeaths>
+        <totalRecovered>63756</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>26337</activeAccess>
+        <country>
+            <countryId>40</countryId>
+            <countryName>Romania</countryName>
+        </country>
+        <countryPopulation>19224023</countryPopulation>
+        <statId>40</statId>
+        <totalCases>57895</totalCases>
+        <totalDeaths>2566</totalDeaths>
+        <totalRecovered>28992</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>0</activeAccess>
+        <country>
+            <countryId>41</countryId>
+            <countryName>Netherlands</countryName>
+        </country>
+        <countryPopulation>17138756</countryPopulation>
+        <statId>41</statId>
+        <totalCases>56982</totalCases>
+        <totalDeaths>6153</totalDeaths>
+        <totalRecovered>0</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>12478</activeAccess>
+        <country>
+            <countryId>44</countryId>
+            <countryName>Portugal</countryName>
+        </country>
+        <countryPopulation>10193593</countryPopulation>
+        <statId>44</statId>
+        <totalCases>52061</totalCases>
+        <totalDeaths>1743</totalDeaths>
+        <totalRecovered>37840</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>12099</activeAccess>
+        <country>
+            <countryId>45</countryId>
+            <countryName>Poland</countryName>
+        </country>
+        <countryPopulation>37842302</countryPopulation>
+        <statId>45</statId>
+        <totalCases>49515</totalCases>
+        <totalDeaths>1774</totalDeaths>
+        <totalRecovered>35642</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>2523</activeAccess>
+        <country>
+            <countryId>54</countryId>
+            <countryName>Switzerland</countryName>
+        </country>
+        <countryPopulation>8660952</countryPopulation>
+        <statId>54</statId>
+        <totalCases>36108</totalCases>
+        <totalDeaths>1985</totalDeaths>
+        <totalRecovered>31600</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>12664</activeAccess>
+        <country>
+            <countryId>59</countryId>
+            <countryName>Serbia</countryName>
+        </country>
+        <countryPopulation>8733665</countryPopulation>
+        <statId>59</statId>
+        <totalCases>27332</totalCases>
+        <totalDeaths>621</totalDeaths>
+        <totalRecovered>14047</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>7124</activeAccess>
+        <country>
+            <countryId>60</countryId>
+            <countryName>Moldova</countryName>
+        </country>
+        <countryPopulation>4032983</countryPopulation>
+        <statId>60</statId>
+        <totalCases>26628</totalCases>
+        <totalDeaths>828</totalDeaths>
+        <totalRecovered>18676</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>1240</activeAccess>
+        <country>
+            <countryId>61</countryId>
+            <countryName>Ireland</countryName>
+        </country>
+        <countryPopulation>4943200</countryPopulation>
+        <statId>61</statId>
+        <totalCases>26372</totalCases>
+        <totalDeaths>1768</totalDeaths>
+        <totalRecovered>23364</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>1381</activeAccess>
+        <country>
+            <countryId>65</countryId>
+            <countryName>Austria</countryName>
+        </country>
+        <countryPopulation>9011577</countryPopulation>
+        <statId>65</statId>
+        <totalCases>21696</totalCases>
+        <totalDeaths>719</totalDeaths>
+        <totalRecovered>19596</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>5021</activeAccess>
+        <country>
+            <countryId>70</countryId>
+            <countryName>Czechia</countryName>
+        </country>
+        <countryPopulation>10711019</countryPopulation>
+        <statId>70</statId>
+        <totalCases>17731</totalCases>
+        <totalDeaths>390</totalDeaths>
+        <totalRecovered>12320</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>902</activeAccess>
+        <country>
+            <countryId>74</countryId>
+            <countryName>Denmark</countryName>
+        </country>
+        <countryPopulation>5794279</countryPopulation>
+        <statId>74</statId>
+        <totalCases>14306</totalCases>
+        <totalDeaths>617</totalDeaths>
+        <totalRecovered>12787</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>5970</activeAccess>
+        <country>
+            <countryId>76</countryId>
+            <countryName>Bosnia and Herzegovina</countryName>
+        </country>
+        <countryPopulation>3278650</countryPopulation>
+        <statId>76</statId>
+        <totalCases>13396</totalCases>
+        <totalDeaths>384</totalDeaths>
+        <totalRecovered>7042</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>5205</activeAccess>
+        <country>
+            <countryId>77</countryId>
+            <countryName>Bulgaria</countryName>
+        </country>
+        <countryPopulation>6942854</countryPopulation>
+        <statId>77</statId>
+        <totalCases>13014</totalCases>
+        <totalDeaths>435</totalDeaths>
+        <totalRecovered>7374</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>3402</activeAccess>
+        <country>
+            <countryId>80</countryId>
+            <countryName>North Macedonia</countryName>
+        </country>
+        <countryPopulation>2083365</countryPopulation>
+        <statId>80</statId>
+        <totalCases>11399</totalCases>
+        <totalDeaths>517</totalDeaths>
+        <totalRecovered>7480</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>355</activeAccess>
+        <country>
+            <countryId>82</countryId>
+            <countryName>Norway</countryName>
+        </country>
+        <countryPopulation>5425471</countryPopulation>
+        <statId>82</statId>
+        <totalCases>9468</totalCases>
+        <totalDeaths>256</totalDeaths>
+        <totalRecovered>8857</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>221</activeAccess>
+        <country>
+            <countryId>90</countryId>
+            <countryName>Finland</countryName>
+        </country>
+        <countryPopulation>5541604</countryPopulation>
+        <statId>90</statId>
+        <totalCases>7532</totalCases>
+        <totalDeaths>331</totalDeaths>
+        <totalRecovered>6980</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>1204</activeAccess>
+        <country>
+            <countryId>92</countryId>
+            <countryName>Luxembourg</countryName>
+        </country>
+        <countryPopulation>626952</countryPopulation>
+        <statId>92</statId>
+        <totalCases>7073</totalCases>
+        <totalDeaths>119</totalDeaths>
+        <totalRecovered>5750</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>2673</activeAccess>
+        <country>
+            <countryId>95</countryId>
+            <countryName>Albania</countryName>
+        </country>
+        <countryPopulation>2877470</countryPopulation>
+        <statId>95</statId>
+        <totalCases>6016</totalCases>
+        <totalDeaths>188</totalDeaths>
+        <totalRecovered>3155</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>561</activeAccess>
+        <country>
+            <countryId>97</countryId>
+            <countryName>Croatia</countryName>
+        </country>
+        <countryPopulation>4102577</countryPopulation>
+        <statId>97</statId>
+        <totalCases>5404</totalCases>
+        <totalDeaths>155</totalDeaths>
+        <totalRecovered>4688</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>3539</activeAccess>
+        <country>
+            <countryId>99</countryId>
+            <countryName>Greece</countryName>
+        </country>
+        <countryPopulation>10417673</countryPopulation>
+        <statId>99</statId>
+        <totalCases>5123</totalCases>
+        <totalDeaths>210</totalDeaths>
+        <totalRecovered>1374</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>534</activeAccess>
+        <country>
+            <countryId>104</countryId>
+            <countryName>Hungary</countryName>
+        </country>
+        <countryPopulation>9657785</countryPopulation>
+        <statId>104</statId>
+        <totalCases>4597</totalCases>
+        <totalDeaths>600</totalDeaths>
+        <totalRecovered>3463</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>1242</activeAccess>
+        <country>
+            <countryId>110</countryId>
+            <countryName>Montenegro</countryName>
+        </country>
+        <countryPopulation>628074</countryPopulation>
+        <statId>110</statId>
+        <totalCases>3480</totalCases>
+        <totalDeaths>60</totalDeaths>
+        <totalRecovered>2178</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>627</activeAccess>
+        <country>
+            <countryId>120</countryId>
+            <countryName>Slovakia</countryName>
+        </country>
+        <countryPopulation>5459915</countryPopulation>
+        <statId>120</statId>
+        <totalCases>2480</totalCases>
+        <totalDeaths>29</totalDeaths>
+        <totalRecovered>1824</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>189</activeAccess>
+        <country>
+            <countryId>122</countryId>
+            <countryName>Slovenia</countryName>
+        </country>
+        <countryPopulation>2078968</countryPopulation>
+        <statId>122</statId>
+        <totalCases>2223</totalCases>
+        <totalDeaths>125</totalDeaths>
+        <totalRecovered>1909</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>434</activeAccess>
+        <country>
+            <countryId>123</countryId>
+            <countryName>Lithuania</countryName>
+        </country>
+        <countryPopulation>2718121</countryPopulation>
+        <statId>123</statId>
+        <totalCases>2171</totalCases>
+        <totalDeaths>81</totalDeaths>
+        <totalRecovered>1656</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>107</activeAccess>
+        <country>
+            <countryId>124</countryId>
+            <countryName>Estonia</countryName>
+        </country>
+        <countryPopulation>1326627</countryPopulation>
+        <statId>124</statId>
+        <totalCases>2124</totalCases>
+        <totalDeaths>63</totalDeaths>
+        <totalRecovered>1954</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>95</activeAccess>
+        <country>
+            <countryId>130</countryId>
+            <countryName>Iceland</countryName>
+        </country>
+        <countryPopulation>341465</countryPopulation>
+        <statId>130</statId>
+        <totalCases>1930</totalCases>
+        <totalDeaths>10</totalDeaths>
+        <totalRecovered>1825</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>173</activeAccess>
+        <country>
+            <countryId>137</countryId>
+            <countryName>Latvia</countryName>
+        </country>
+        <countryPopulation>1883936</countryPopulation>
+        <statId>137</statId>
+        <totalCases>1275</totalCases>
+        <totalDeaths>32</totalDeaths>
+        <totalRecovered>1070</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>267</activeAccess>
+        <country>
+            <countryId>148</countryId>
+            <countryName>Malta</countryName>
+        </country>
+        <countryPopulation>441663</countryPopulation>
+        <statId>148</statId>
+        <totalCases>946</totalCases>
+        <totalDeaths>9</totalDeaths>
+        <totalRecovered>670</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>64</activeAccess>
+        <country>
+            <countryId>149</countryId>
+            <countryName>Andorra</countryName>
+        </country>
+        <countryPopulation>77278</countryPopulation>
+        <statId>149</statId>
+        <totalCases>944</totalCases>
+        <totalDeaths>52</totalDeaths>
+        <totalRecovered>828</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>0</activeAccess>
+        <country>
+            <countryId>158</countryId>
+            <countryName>San Marino</countryName>
+        </country>
+        <countryPopulation>33938</countryPopulation>
+        <statId>158</statId>
+        <totalCases>699</totalCases>
+        <totalDeaths>42</totalDeaths>
+        <totalRecovered>657</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>17</activeAccess>
+        <country>
+            <countryId>160</countryId>
+            <countryName>Channel Islands</countryName>
+        </country>
+        <countryPopulation>174022</countryPopulation>
+        <statId>160</statId>
+        <totalCases>597</totalCases>
+        <totalDeaths>47</totalDeaths>
+        <totalRecovered>533</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>0</activeAccess>
+        <country>
+            <countryId>168</countryId>
+            <countryName>Isle of Man</countryName>
+        </country>
+        <countryPopulation>85078</countryPopulation>
+        <statId>168</statId>
+        <totalCases>336</totalCases>
+        <totalDeaths>24</totalDeaths>
+        <totalRecovered>312</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>74</activeAccess>
+        <country>
+            <countryId>173</countryId>
+            <countryName>Faeroe Islands</countryName>
+        </country>
+        <countryPopulation>48882</countryPopulation>
+        <statId>173</statId>
+        <totalCases>266</totalCases>
+        <totalDeaths>0</totalDeaths>
+        <totalRecovered>192</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>6</activeAccess>
+        <country>
+            <countryId>178</countryId>
+            <countryName>Gibraltar</countryName>
+        </country>
+        <countryPopulation>33690</countryPopulation>
+        <statId>178</statId>
+        <totalCases>190</totalCases>
+        <totalDeaths>0</totalDeaths>
+        <totalRecovered>184</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>16</activeAccess>
+        <country>
+            <countryId>186</countryId>
+            <countryName>Monaco</countryName>
+        </country>
+        <countryPopulation>39270</countryPopulation>
+        <statId>186</statId>
+        <totalCases>125</totalCases>
+        <totalDeaths>4</totalDeaths>
+        <totalRecovered>105</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>3</activeAccess>
+        <country>
+            <countryId>189</countryId>
+            <countryName>Liechtenstein</countryName>
+        </country>
+        <countryPopulation>38139</countryPopulation>
+        <statId>189</statId>
+        <totalCases>89</totalCases>
+        <totalDeaths>1</totalDeaths>
+        <totalRecovered>85</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>0</activeAccess>
+        <country>
+            <countryId>208</countryId>
+            <countryName>Vatican City</countryName>
+        </country>
+        <countryPopulation>801</countryPopulation>
+        <statId>208</statId>
+        <totalCases>12</totalCases>
+        <totalDeaths>0</totalDeaths>
+        <totalRecovered>12</totalRecovered>
+    </listOfElements>
+</rootXml>

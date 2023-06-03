@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rootXml>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>2292707</activeAccess>
+        <country>
+            <countryId>1</countryId>
+            <countryName>USA</countryName>
+        </country>
+        <countryPopulation>331198130</countryPopulation>
+        <statId>1</statId>
+        <totalCases>5032179</totalCases>
+        <totalDeaths>162804</totalDeaths>
+        <totalRecovered>2576668</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>2292707</activeAccess>
+        <country>
+            <countryId>1</countryId>
+            <countryName>USA</countryName>
+        </country>
+        <countryPopulation>331198130</countryPopulation>
+        <statId>1</statId>
+        <totalCases>5032179</totalCases>
+        <totalDeaths>162804</totalDeaths>
+        <totalRecovered>2576668</totalRecovered>
+    </listOfElements>
+    <listOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="statResponse">
+        <activeAccess>2292707</activeAccess>
+        <country>
+            <countryId>1</countryId>
+            <countryName>USA</countryName>
+        </country>
+        <countryPopulation>331198130</countryPopulation>
+        <statId>1</statId>
+        <totalCases>5032179</totalCases>
+        <totalDeaths>162804</totalDeaths>
+        <totalRecovered>2576668</totalRecovered>
+    </listOfElements>
+</rootXml>

@@ -1,0 +1,2301 @@
+[
+  {
+    "stat_id": "1",
+    "country_population": "331198130",
+    "total_cases": "5032179",
+    "total_deaths": "162804",
+    "total_recovered": "2576668",
+    "active_cases": "2292707",
+    "country": {
+      "country_name": "USA"
+    }
+  },
+  {
+    "stat_id": "2",
+    "country_population": "212710692",
+    "total_cases": "2917562",
+    "total_deaths": "98644",
+    "total_recovered": "2047660",
+    "active_cases": "771258",
+    "country": {
+      "country_name": "Brazil"
+    }
+  },
+  {
+    "stat_id": "3",
+    "country_population": "1381344997",
+    "total_cases": "2025409",
+    "total_deaths": "41638",
+    "total_recovered": "1377384",
+    "active_cases": "606387",
+    "country": {
+      "country_name": "India"
+    }
+  },
+  {
+    "stat_id": "4",
+    "country_population": "145940924",
+    "total_cases": "871894",
+    "total_deaths": "14606",
+    "total_recovered": "676357",
+    "active_cases": "180931",
+    "country": {
+      "country_name": "Russia"
+    }
+  },
+  {
+    "stat_id": "5",
+    "country_population": "59381566",
+    "total_cases": "538184",
+    "total_deaths": "9604",
+    "total_recovered": "387316",
+    "active_cases": "141264",
+    "country": {
+      "country_name": "South Africa"
+    }
+  },
+  {
+    "stat_id": "6",
+    "country_population": "129066160",
+    "total_cases": "462690",
+    "total_deaths": "50517",
+    "total_recovered": "308848",
+    "active_cases": "103325",
+    "country": {
+      "country_name": "Mexico"
+    }
+  },
+  {
+    "stat_id": "7",
+    "country_population": "33016319",
+    "total_cases": "455409",
+    "total_deaths": "20424",
+    "total_recovered": "310337",
+    "active_cases": "124648",
+    "country": {
+      "country_name": "Peru"
+    }
+  },
+  {
+    "stat_id": "8",
+    "country_population": "19132514",
+    "total_cases": "366671",
+    "total_deaths": "9889",
+    "total_recovered": "340168",
+    "active_cases": "16614",
+    "country": {
+      "country_name": "Chile"
+    }
+  },
+  {
+    "stat_id": "9",
+    "country_population": "50936262",
+    "total_cases": "357710",
+    "total_deaths": "11939",
+    "total_recovered": "192355",
+    "active_cases": "153416",
+    "country": {
+      "country_name": "Colombia"
+    }
+  },
+  {
+    "stat_id": "10",
+    "country_population": "46756648",
+    "total_cases": "354530",
+    "total_deaths": "28500",
+    "total_recovered": "0",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Spain"
+    }
+  },
+  {
+    "stat_id": "11",
+    "country_population": "84097623",
+    "total_cases": "320117",
+    "total_deaths": "17976",
+    "total_recovered": "277463",
+    "active_cases": "24678",
+    "country": {
+      "country_name": "Iran"
+    }
+  },
+  {
+    "stat_id": "12",
+    "country_population": "67922029",
+    "total_cases": "308134",
+    "total_deaths": "46413",
+    "total_recovered": "0",
+    "active_cases": "0",
+    "country": {
+      "country_name": "UK"
+    }
+  },
+  {
+    "stat_id": "13",
+    "country_population": "34865919",
+    "total_cases": "284226",
+    "total_deaths": "3055",
+    "total_recovered": "247089",
+    "active_cases": "34082",
+    "country": {
+      "country_name": "Saudi Arabia"
+    }
+  },
+  {
+    "stat_id": "14",
+    "country_population": "221295851",
+    "total_cases": "281863",
+    "total_deaths": "6035",
+    "total_recovered": "256058",
+    "active_cases": "19770",
+    "country": {
+      "country_name": "Pakistan"
+    }
+  },
+  {
+    "stat_id": "15",
+    "country_population": "164851401",
+    "total_cases": "249651",
+    "total_deaths": "3306",
+    "total_recovered": "143824",
+    "active_cases": "102521",
+    "country": {
+      "country_name": "Bangladesh"
+    }
+  },
+  {
+    "stat_id": "16",
+    "country_population": "60452568",
+    "total_cases": "249204",
+    "total_deaths": "35187",
+    "total_recovered": "201323",
+    "active_cases": "12694",
+    "country": {
+      "country_name": "Italy"
+    }
+  },
+  {
+    "stat_id": "17",
+    "country_population": "84428331",
+    "total_cases": "237265",
+    "total_deaths": "5798",
+    "total_recovered": "220546",
+    "active_cases": "10921",
+    "country": {
+      "country_name": "Turkey"
+    }
+  },
+  {
+    "stat_id": "18",
+    "country_population": "45236884",
+    "total_cases": "228195",
+    "total_deaths": "4251",
+    "total_recovered": "99852",
+    "active_cases": "124092",
+    "country": {
+      "country_name": "Argentina"
+    }
+  },
+  {
+    "stat_id": "19",
+    "country_population": "83811260",
+    "total_cases": "215210",
+    "total_deaths": "9252",
+    "total_recovered": "196200",
+    "active_cases": "9758",
+    "country": {
+      "country_name": "Germany"
+    }
+  },
+  {
+    "stat_id": "20",
+    "country_population": "65288306",
+    "total_cases": "195633",
+    "total_deaths": "30312",
+    "total_recovered": "82460",
+    "active_cases": "82861",
+    "country": {
+      "country_name": "France"
+    }
+  },
+  {
+    "stat_id": "21",
+    "country_population": "40306025",
+    "total_cases": "140603",
+    "total_deaths": "5161",
+    "total_recovered": "101025",
+    "active_cases": "34417",
+    "country": {
+      "country_name": "Iraq"
+    }
+  },
+  {
+    "stat_id": "22",
+    "country_population": "109722719",
+    "total_cases": "119460",
+    "total_deaths": "2150",
+    "total_recovered": "66837",
+    "active_cases": "50473",
+    "country": {
+      "country_name": "Philippines"
+    }
+  },
+  {
+    "stat_id": "23",
+    "country_population": "273808365",
+    "total_cases": "118753",
+    "total_deaths": "5521",
+    "total_recovered": "75645",
+    "active_cases": "37587",
+    "country": {
+      "country_name": "Indonesia"
+    }
+  },
+  {
+    "stat_id": "24",
+    "country_population": "37775022",
+    "total_cases": "118561",
+    "total_deaths": "8966",
+    "total_recovered": "103106",
+    "active_cases": "6489",
+    "country": {
+      "country_name": "Canada"
+    }
+  },
+  {
+    "stat_id": "25",
+    "country_population": "2807805",
+    "total_cases": "112092",
+    "total_deaths": "178",
+    "total_recovered": "108831",
+    "active_cases": "3083",
+    "country": {
+      "country_name": "Qatar"
+    }
+  },
+  {
+    "stat_id": "26",
+    "country_population": "18798667",
+    "total_cases": "95942",
+    "total_deaths": "1058",
+    "total_recovered": "68871",
+    "active_cases": "26013",
+    "country": {
+      "country_name": "Kazakhstan"
+    }
+  },
+  {
+    "stat_id": "27",
+    "country_population": "102516525",
+    "total_cases": "95006",
+    "total_deaths": "4951",
+    "total_recovered": "48898",
+    "active_cases": "41157",
+    "country": {
+      "country_name": "Egypt"
+    }
+  },
+  {
+    "stat_id": "28",
+    "country_population": "17668824",
+    "total_cases": "90537",
+    "total_deaths": "5877",
+    "total_recovered": "71318",
+    "active_cases": "13342",
+    "country": {
+      "country_name": "Ecuador"
+    }
+  },
+  {
+    "stat_id": "29",
+    "country_population": "11688459",
+    "total_cases": "86423",
+    "total_deaths": "3465",
+    "total_recovered": "27373",
+    "active_cases": "55585",
+    "country": {
+      "country_name": "Bolivia"
+    }
+  },
+  {
+    "stat_id": "30",
+    "country_population": "10105596",
+    "total_cases": "81967",
+    "total_deaths": "5766",
+    "total_recovered": "0",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Sweden"
+    }
+  },
+  {
+    "stat_id": "31",
+    "country_population": "5118446",
+    "total_cases": "80713",
+    "total_deaths": "492",
+    "total_recovered": "70910",
+    "active_cases": "9311",
+    "country": {
+      "country_name": "Oman"
+    }
+  },
+  {
+    "stat_id": "32",
+    "country_population": "9197590",
+    "total_cases": "79559",
+    "total_deaths": "576",
+    "total_recovered": "53427",
+    "active_cases": "25556",
+    "country": {
+      "country_name": "Israel"
+    }
+  },
+  {
+    "stat_id": "33",
+    "country_population": "43705858",
+    "total_cases": "76808",
+    "total_deaths": "1819",
+    "total_recovered": "42524",
+    "active_cases": "32465",
+    "country": {
+      "country_name": "Ukraine"
+    }
+  },
+  {
+    "stat_id": "34",
+    "country_population": "10858648",
+    "total_cases": "76536",
+    "total_deaths": "1246",
+    "total_recovered": "40539",
+    "active_cases": "34751",
+    "country": {
+      "country_name": "Dominican Republic"
+    }
+  },
+  {
+    "stat_id": "35",
+    "country_population": "4321282",
+    "total_cases": "71418",
+    "total_deaths": "1574",
+    "total_recovered": "45658",
+    "active_cases": "24186",
+    "country": {
+      "country_name": "Panama"
+    }
+  },
+  {
+    "stat_id": "36",
+    "country_population": "11594739",
+    "total_cases": "71158",
+    "total_deaths": "9859",
+    "total_recovered": "17661",
+    "active_cases": "43638",
+    "country": {
+      "country_name": "Belgium"
+    }
+  },
+  {
+    "stat_id": "37",
+    "country_population": "4276658",
+    "total_cases": "70045",
+    "total_deaths": "469",
+    "total_recovered": "61610",
+    "active_cases": "7966",
+    "country": {
+      "country_name": "Kuwait"
+    }
+  },
+  {
+    "stat_id": "38",
+    "country_population": "9449001",
+    "total_cases": "68503",
+    "total_deaths": "580",
+    "total_recovered": "63756",
+    "active_cases": "4167",
+    "country": {
+      "country_name": "Belarus"
+    }
+  },
+  {
+    "stat_id": "39",
+    "country_population": "9902079",
+    "total_cases": "61845",
+    "total_deaths": "354",
+    "total_recovered": "55739",
+    "active_cases": "5752",
+    "country": {
+      "country_name": "UAE"
+    }
+  },
+  {
+    "stat_id": "40",
+    "country_population": "19224023",
+    "total_cases": "57895",
+    "total_deaths": "2566",
+    "total_recovered": "28992",
+    "active_cases": "26337",
+    "country": {
+      "country_name": "Romania"
+    }
+  },
+  {
+    "stat_id": "41",
+    "country_population": "17138756",
+    "total_cases": "56982",
+    "total_deaths": "6153",
+    "total_recovered": "0",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Netherlands"
+    }
+  },
+  {
+    "stat_id": "42",
+    "country_population": "5854932",
+    "total_cases": "54555",
+    "total_deaths": "27",
+    "total_recovered": "48031",
+    "active_cases": "6497",
+    "country": {
+      "country_name": "Singapore"
+    }
+  },
+  {
+    "stat_id": "43",
+    "country_population": "17946899",
+    "total_cases": "54339",
+    "total_deaths": "2119",
+    "total_recovered": "42070",
+    "active_cases": "10150",
+    "country": {
+      "country_name": "Guatemala"
+    }
+  },
+  {
+    "stat_id": "44",
+    "country_population": "10193593",
+    "total_cases": "52061",
+    "total_deaths": "1743",
+    "total_recovered": "37840",
+    "active_cases": "12478",
+    "country": {
+      "country_name": "Portugal"
+    }
+  },
+  {
+    "stat_id": "45",
+    "country_population": "37842302",
+    "total_cases": "49515",
+    "total_deaths": "1774",
+    "total_recovered": "35642",
+    "active_cases": "12099",
+    "country": {
+      "country_name": "Poland"
+    }
+  },
+  {
+    "stat_id": "46",
+    "country_population": "206606300",
+    "total_cases": "45244",
+    "total_deaths": "930",
+    "total_recovered": "32430",
+    "active_cases": "11884",
+    "country": {
+      "country_name": "Nigeria"
+    }
+  },
+  {
+    "stat_id": "47",
+    "country_population": "9919704",
+    "total_cases": "45098",
+    "total_deaths": "1423",
+    "total_recovered": "6116",
+    "active_cases": "37559",
+    "country": {
+      "country_name": "Honduras"
+    }
+  },
+  {
+    "stat_id": "48",
+    "country_population": "1706669",
+    "total_cases": "42889",
+    "total_deaths": "156",
+    "total_recovered": "39945",
+    "active_cases": "2788",
+    "country": {
+      "country_name": "Bahrain"
+    }
+  },
+  {
+    "stat_id": "49",
+    "country_population": "126435859",
+    "total_cases": "42263",
+    "total_deaths": "1026",
+    "total_recovered": "28877",
+    "active_cases": "12360",
+    "country": {
+      "country_name": "Japan"
+    }
+  },
+  {
+    "stat_id": "50",
+    "country_population": "2963811",
+    "total_cases": "39819",
+    "total_deaths": "772",
+    "total_recovered": "31556",
+    "active_cases": "7491",
+    "country": {
+      "country_name": "Armenia"
+    }
+  },
+  {
+    "stat_id": "51",
+    "country_population": "31133483",
+    "total_cases": "39642",
+    "total_deaths": "199",
+    "total_recovered": "36384",
+    "active_cases": "3059",
+    "country": {
+      "country_name": "Ghana"
+    }
+  },
+  {
+    "stat_id": "52",
+    "country_population": "6534479",
+    "total_cases": "38659",
+    "total_deaths": "1447",
+    "total_recovered": "30099",
+    "active_cases": "7113",
+    "country": {
+      "country_name": "Kyrgyzstan"
+    }
+  },
+  {
+    "stat_id": "53",
+    "country_population": "39009447",
+    "total_cases": "36896",
+    "total_deaths": "1298",
+    "total_recovered": "25840",
+    "active_cases": "9758",
+    "country": {
+      "country_name": "Afghanistan"
+    }
+  },
+  {
+    "stat_id": "54",
+    "country_population": "8660952",
+    "total_cases": "36108",
+    "total_deaths": "1985",
+    "total_recovered": "31600",
+    "active_cases": "2523",
+    "country": {
+      "country_name": "Switzerland"
+    }
+  },
+  {
+    "stat_id": "55",
+    "country_population": "43926079",
+    "total_cases": "33626",
+    "total_deaths": "1273",
+    "total_recovered": "23238",
+    "active_cases": "9115",
+    "country": {
+      "country_name": "Algeria"
+    }
+  },
+  {
+    "stat_id": "56",
+    "country_population": "10148243",
+    "total_cases": "33247",
+    "total_deaths": "479",
+    "total_recovered": "29275",
+    "active_cases": "3493",
+    "country": {
+      "country_name": "Azerbaijan"
+    }
+  },
+  {
+    "stat_id": "57",
+    "country_population": "36953359",
+    "total_cases": "29644",
+    "total_deaths": "449",
+    "total_recovered": "20553",
+    "active_cases": "8642",
+    "country": {
+      "country_name": "Morocco"
+    }
+  },
+  {
+    "stat_id": "58",
+    "country_population": "33516027",
+    "total_cases": "28315",
+    "total_deaths": "175",
+    "total_recovered": "19291",
+    "active_cases": "8849",
+    "country": {
+      "country_name": "Uzbekistan"
+    }
+  },
+  {
+    "stat_id": "59",
+    "country_population": "8733665",
+    "total_cases": "27332",
+    "total_deaths": "621",
+    "total_recovered": "14047",
+    "active_cases": "12664",
+    "country": {
+      "country_name": "Serbia"
+    }
+  },
+  {
+    "stat_id": "60",
+    "country_population": "4032983",
+    "total_cases": "26628",
+    "total_deaths": "828",
+    "total_recovered": "18676",
+    "active_cases": "7124",
+    "country": {
+      "country_name": "Moldova"
+    }
+  },
+  {
+    "stat_id": "61",
+    "country_population": "4943200",
+    "total_cases": "26372",
+    "total_deaths": "1768",
+    "total_recovered": "23364",
+    "active_cases": "1240",
+    "country": {
+      "country_name": "Ireland"
+    }
+  },
+  {
+    "stat_id": "62",
+    "country_population": "53881160",
+    "total_cases": "24411",
+    "total_deaths": "399",
+    "total_recovered": "10444",
+    "active_cases": "13568",
+    "country": {
+      "country_name": "Kenya"
+    }
+  },
+  {
+    "stat_id": "63",
+    "country_population": "28427499",
+    "total_cases": "22299",
+    "total_deaths": "195",
+    "total_recovered": "12146",
+    "active_cases": "9958",
+    "country": {
+      "country_name": "Venezuela"
+    }
+  },
+  {
+    "stat_id": "64",
+    "country_population": "29186486",
+    "total_cases": "21750",
+    "total_deaths": "65",
+    "total_recovered": "15389",
+    "active_cases": "6296",
+    "country": {
+      "country_name": "Nepal"
+    }
+  },
+  {
+    "stat_id": "65",
+    "country_population": "9011577",
+    "total_cases": "21696",
+    "total_deaths": "719",
+    "total_recovered": "19596",
+    "active_cases": "1381",
+    "country": {
+      "country_name": "Austria"
+    }
+  },
+  {
+    "stat_id": "66",
+    "country_population": "5098730",
+    "total_cases": "21070",
+    "total_deaths": "200",
+    "total_recovered": "7038",
+    "active_cases": "13832",
+    "country": {
+      "country_name": "Costa Rica"
+    }
+  },
+  {
+    "stat_id": "67",
+    "country_population": "115223736",
+    "total_cases": "20900",
+    "total_deaths": "365",
+    "total_recovered": "9027",
+    "active_cases": "11508",
+    "country": {
+      "country_name": "Ethiopia"
+    }
+  },
+  {
+    "stat_id": "68",
+    "country_population": "25528864",
+    "total_cases": "19890",
+    "total_deaths": "255",
+    "total_recovered": "10941",
+    "active_cases": "8694",
+    "country": {
+      "country_name": "Australia"
+    }
+  },
+  {
+    "stat_id": "69",
+    "country_population": "6489514",
+    "total_cases": "19126",
+    "total_deaths": "513",
+    "total_recovered": "9236",
+    "active_cases": "9377",
+    "country": {
+      "country_name": "El Salvador"
+    }
+  },
+  {
+    "stat_id": "70",
+    "country_population": "10711019",
+    "total_cases": "17731",
+    "total_deaths": "390",
+    "total_recovered": "12320",
+    "active_cases": "5021",
+    "country": {
+      "country_name": "Czechia"
+    }
+  },
+  {
+    "stat_id": "71",
+    "country_population": "26606188",
+    "total_cases": "17718",
+    "total_deaths": "391",
+    "total_recovered": "15320",
+    "active_cases": "2007",
+    "country": {
+      "country_name": "Cameroon"
+    }
+  },
+  {
+    "stat_id": "72",
+    "country_population": "26437950",
+    "total_cases": "16447",
+    "total_deaths": "103",
+    "total_recovered": "12484",
+    "active_cases": "3860",
+    "country": {
+      "country_name": "Ivory Coast"
+    }
+  },
+  {
+    "stat_id": "73",
+    "country_population": "51273732",
+    "total_cases": "14519",
+    "total_deaths": "303",
+    "total_recovered": "13543",
+    "active_cases": "673",
+    "country": {
+      "country_name": "S. Korea"
+    }
+  },
+  {
+    "stat_id": "74",
+    "country_population": "5794279",
+    "total_cases": "14306",
+    "total_deaths": "617",
+    "total_recovered": "12787",
+    "active_cases": "902",
+    "country": {
+      "country_name": "Denmark"
+    }
+  },
+  {
+    "stat_id": "75",
+    "country_population": "5112340",
+    "total_cases": "13398",
+    "total_deaths": "92",
+    "total_recovered": "6907",
+    "active_cases": "6399",
+    "country": {
+      "country_name": "Palestine"
+    }
+  },
+  {
+    "stat_id": "76",
+    "country_population": "3278650",
+    "total_cases": "13396",
+    "total_deaths": "384",
+    "total_recovered": "7042",
+    "active_cases": "5970",
+    "country": {
+      "country_name": "Bosnia and Herzegovina"
+    }
+  },
+  {
+    "stat_id": "77",
+    "country_population": "6942854",
+    "total_cases": "13014",
+    "total_deaths": "435",
+    "total_recovered": "7374",
+    "active_cases": "5205",
+    "country": {
+      "country_name": "Bulgaria"
+    }
+  },
+  {
+    "stat_id": "78",
+    "country_population": "27755708",
+    "total_cases": "12526",
+    "total_deaths": "134",
+    "total_recovered": "10148",
+    "active_cases": "2244",
+    "country": {
+      "country_name": "Madagascar"
+    }
+  },
+  {
+    "stat_id": "79",
+    "country_population": "43943536",
+    "total_cases": "11780",
+    "total_deaths": "763",
+    "total_recovered": "6194",
+    "active_cases": "4823",
+    "country": {
+      "country_name": "Sudan"
+    }
+  },
+  {
+    "stat_id": "80",
+    "country_population": "2083365",
+    "total_cases": "11399",
+    "total_deaths": "517",
+    "total_recovered": "7480",
+    "active_cases": "3402",
+    "country": {
+      "country_name": "North Macedonia"
+    }
+  },
+  {
+    "stat_id": "81",
+    "country_population": "16783877",
+    "total_cases": "10715",
+    "total_deaths": "223",
+    "total_recovered": "7101",
+    "active_cases": "3391",
+    "country": {
+      "country_name": "Senegal"
+    }
+  },
+  {
+    "stat_id": "82",
+    "country_population": "5425471",
+    "total_cases": "9468",
+    "total_deaths": "256",
+    "total_recovered": "8857",
+    "active_cases": "355",
+    "country": {
+      "country_name": "Norway"
+    }
+  },
+  {
+    "stat_id": "83",
+    "country_population": "89802183",
+    "total_cases": "9309",
+    "total_deaths": "215",
+    "total_recovered": "8048",
+    "active_cases": "1046",
+    "country": {
+      "country_name": "DRC"
+    }
+  },
+  {
+    "stat_id": "84",
+    "country_population": "32406372",
+    "total_cases": "9038",
+    "total_deaths": "125",
+    "total_recovered": "8713",
+    "active_cases": "200",
+    "country": {
+      "country_name": "Malaysia"
+    }
+  },
+  {
+    "stat_id": "85",
+    "country_population": "299385",
+    "total_cases": "8127",
+    "total_deaths": "47",
+    "total_recovered": "7240",
+    "active_cases": "840",
+    "country": {
+      "country_name": "French Guiana"
+    }
+  },
+  {
+    "stat_id": "86",
+    "country_population": "2230563",
+    "total_cases": "7787",
+    "total_deaths": "51",
+    "total_recovered": "5609",
+    "active_cases": "2127",
+    "country": {
+      "country_name": "Gabon"
+    }
+  },
+  {
+    "stat_id": "87",
+    "country_population": "9557468",
+    "total_cases": "7665",
+    "total_deaths": "62",
+    "total_recovered": "6443",
+    "active_cases": "1160",
+    "country": {
+      "country_name": "Tajikistan"
+    }
+  },
+  {
+    "stat_id": "88",
+    "country_population": "13164905",
+    "total_cases": "7664",
+    "total_deaths": "49",
+    "total_recovered": "6757",
+    "active_cases": "858",
+    "country": {
+      "country_name": "Guinea"
+    }
+  },
+  {
+    "stat_id": "89",
+    "country_population": "11416103",
+    "total_cases": "7544",
+    "total_deaths": "171",
+    "total_recovered": "4832",
+    "active_cases": "2541",
+    "country": {
+      "country_name": "Haiti"
+    }
+  },
+  {
+    "stat_id": "90",
+    "country_population": "5541604",
+    "total_cases": "7532",
+    "total_deaths": "331",
+    "total_recovered": "6980",
+    "active_cases": "221",
+    "country": {
+      "country_name": "Finland"
+    }
+  },
+  {
+    "stat_id": "91",
+    "country_population": "18430129",
+    "total_cases": "7164",
+    "total_deaths": "199",
+    "total_recovered": "5786",
+    "active_cases": "1179",
+    "country": {
+      "country_name": "Zambia"
+    }
+  },
+  {
+    "stat_id": "92",
+    "country_population": "626952",
+    "total_cases": "7073",
+    "total_deaths": "119",
+    "total_recovered": "5750",
+    "active_cases": "1204",
+    "country": {
+      "country_name": "Luxembourg"
+    }
+  },
+  {
+    "stat_id": "93",
+    "country_population": "4660728",
+    "total_cases": "6444",
+    "total_deaths": "157",
+    "total_recovered": "5291",
+    "active_cases": "996",
+    "country": {
+      "country_name": "Mauritania"
+    }
+  },
+  {
+    "stat_id": "94",
+    "country_population": "7141091",
+    "total_cases": "6375",
+    "total_deaths": "66",
+    "total_recovered": "4974",
+    "active_cases": "1335",
+    "country": {
+      "country_name": "Paraguay"
+    }
+  },
+  {
+    "stat_id": "95",
+    "country_population": "2877470",
+    "total_cases": "6016",
+    "total_deaths": "188",
+    "total_recovered": "3155",
+    "active_cases": "2673",
+    "country": {
+      "country_name": "Albania"
+    }
+  },
+  {
+    "stat_id": "96",
+    "country_population": "6822220",
+    "total_cases": "5672",
+    "total_deaths": "70",
+    "total_recovered": "1974",
+    "active_cases": "3628",
+    "country": {
+      "country_name": "Lebanon"
+    }
+  },
+  {
+    "stat_id": "97",
+    "country_population": "4102577",
+    "total_cases": "5404",
+    "total_deaths": "155",
+    "total_recovered": "4688",
+    "active_cases": "561",
+    "country": {
+      "country_name": "Croatia"
+    }
+  },
+  {
+    "stat_id": "98",
+    "country_population": "989387",
+    "total_cases": "5330",
+    "total_deaths": "59",
+    "total_recovered": "5057",
+    "active_cases": "214",
+    "country": {
+      "country_name": "Djibouti"
+    }
+  },
+  {
+    "stat_id": "99",
+    "country_population": "10417673",
+    "total_cases": "5123",
+    "total_deaths": "210",
+    "total_recovered": "1374",
+    "active_cases": "3539",
+    "country": {
+      "country_name": "Greece"
+    }
+  },
+  {
+    "stat_id": "100",
+    "country_population": "6880353",
+    "total_cases": "4879",
+    "total_deaths": "107",
+    "total_recovered": "652",
+    "active_cases": "4120",
+    "country": {
+      "country_name": "Libya"
+    }
+  },
+  {
+    "stat_id": "101",
+    "country_population": "1407001",
+    "total_cases": "4821",
+    "total_deaths": "83",
+    "total_recovered": "2182",
+    "active_cases": "2556",
+    "country": {
+      "country_name": "Equatorial Guinea"
+    }
+  },
+  {
+    "stat_id": "102",
+    "country_population": "541448",
+    "total_cases": "4680",
+    "total_deaths": "19",
+    "total_recovered": "2725",
+    "active_cases": "1936",
+    "country": {
+      "country_name": "Maldives"
+    }
+  },
+  {
+    "stat_id": "103",
+    "country_population": "4837752",
+    "total_cases": "4620",
+    "total_deaths": "59",
+    "total_recovered": "1641",
+    "active_cases": "2920",
+    "country": {
+      "country_name": "CAR"
+    }
+  },
+  {
+    "stat_id": "104",
+    "country_population": "9657785",
+    "total_cases": "4597",
+    "total_deaths": "600",
+    "total_recovered": "3463",
+    "active_cases": "534",
+    "country": {
+      "country_name": "Hungary"
+    }
+  },
+  {
+    "stat_id": "105",
+    "country_population": "19174839",
+    "total_cases": "4491",
+    "total_deaths": "137",
+    "total_recovered": "2137",
+    "active_cases": "2217",
+    "country": {
+      "country_name": "Malawi"
+    }
+  },
+  {
+    "stat_id": "106",
+    "country_population": "14883803",
+    "total_cases": "4339",
+    "total_deaths": "84",
+    "total_recovered": "1264",
+    "active_cases": "2991",
+    "country": {
+      "country_name": "Zimbabwe"
+    }
+  },
+  {
+    "stat_id": "107",
+    "country_population": "6632263",
+    "total_cases": "3902",
+    "total_deaths": "123",
+    "total_recovered": "2913",
+    "active_cases": "866",
+    "country": {
+      "country_name": "Nicaragua"
+    }
+  },
+  {
+    "stat_id": "108",
+    "country_population": "7503041",
+    "total_cases": "3850",
+    "total_deaths": "46",
+    "total_recovered": "2458",
+    "active_cases": "1346",
+    "country": {
+      "country_name": "Hong Kong"
+    }
+  },
+  {
+    "stat_id": "109",
+    "country_population": "5530506",
+    "total_cases": "3546",
+    "total_deaths": "58",
+    "total_recovered": "1589",
+    "active_cases": "1899",
+    "country": {
+      "country_name": "Congo"
+    }
+  },
+  {
+    "stat_id": "110",
+    "country_population": "628074",
+    "total_cases": "3480",
+    "total_deaths": "60",
+    "total_recovered": "2178",
+    "active_cases": "1242",
+    "country": {
+      "country_name": "Montenegro"
+    }
+  },
+  {
+    "stat_id": "111",
+    "country_population": "69817894",
+    "total_cases": "3330",
+    "total_deaths": "58",
+    "total_recovered": "3148",
+    "active_cases": "124",
+    "country": {
+      "country_name": "Thailand"
+    }
+  },
+  {
+    "stat_id": "112",
+    "country_population": "15933012",
+    "total_cases": "3227",
+    "total_deaths": "93",
+    "total_recovered": "1728",
+    "active_cases": "1406",
+    "country": {
+      "country_name": "Somalia"
+    }
+  },
+  {
+    "stat_id": "113",
+    "country_population": "273419",
+    "total_cases": "3042",
+    "total_deaths": "39",
+    "total_recovered": "2738",
+    "active_cases": "265",
+    "country": {
+      "country_name": "Mayotte"
+    }
+  },
+  {
+    "stat_id": "114",
+    "country_population": "1161348",
+    "total_cases": "2968",
+    "total_deaths": "55",
+    "total_recovered": "1476",
+    "active_cases": "1437",
+    "country": {
+      "country_name": "Eswatini"
+    }
+  },
+  {
+    "stat_id": "115",
+    "country_population": "21422362",
+    "total_cases": "2839",
+    "total_deaths": "11",
+    "total_recovered": "2541",
+    "active_cases": "287",
+    "country": {
+      "country_name": "Sri Lanka"
+    }
+  },
+  {
+    "stat_id": "116",
+    "country_population": "11325899",
+    "total_cases": "2775",
+    "total_deaths": "88",
+    "total_recovered": "2409",
+    "active_cases": "278",
+    "country": {
+      "country_name": "Cuba"
+    }
+  },
+  {
+    "stat_id": "117",
+    "country_population": "556581",
+    "total_cases": "2734",
+    "total_deaths": "27",
+    "total_recovered": "2010",
+    "active_cases": "697",
+    "country": {
+      "country_name": "Cabo Verde"
+    }
+  },
+  {
+    "stat_id": "118",
+    "country_population": "2545264",
+    "total_cases": "2652",
+    "total_deaths": "15",
+    "total_recovered": "563",
+    "active_cases": "2074",
+    "country": {
+      "country_name": "Namibia"
+    }
+  },
+  {
+    "stat_id": "119",
+    "country_population": "20302901",
+    "total_cases": "2552",
+    "total_deaths": "124",
+    "total_recovered": "1954",
+    "active_cases": "474",
+    "country": {
+      "country_name": "Mali"
+    }
+  },
+  {
+    "stat_id": "120",
+    "country_population": "5459915",
+    "total_cases": "2480",
+    "total_deaths": "29",
+    "total_recovered": "1824",
+    "active_cases": "627",
+    "country": {
+      "country_name": "Slovakia"
+    }
+  },
+  {
+    "stat_id": "121",
+    "country_population": "11206572",
+    "total_cases": "2450",
+    "total_deaths": "47",
+    "total_recovered": "1175",
+    "active_cases": "1228",
+    "country": {
+      "country_name": "South Sudan"
+    }
+  },
+  {
+    "stat_id": "122",
+    "country_population": "2078968",
+    "total_cases": "2223",
+    "total_deaths": "125",
+    "total_recovered": "1909",
+    "active_cases": "189",
+    "country": {
+      "country_name": "Slovenia"
+    }
+  },
+  {
+    "stat_id": "123",
+    "country_population": "2718121",
+    "total_cases": "2171",
+    "total_deaths": "81",
+    "total_recovered": "1656",
+    "active_cases": "434",
+    "country": {
+      "country_name": "Lithuania"
+    }
+  },
+  {
+    "stat_id": "124",
+    "country_population": "1326627",
+    "total_cases": "2124",
+    "total_deaths": "63",
+    "total_recovered": "1954",
+    "active_cases": "107",
+    "country": {
+      "country_name": "Estonia"
+    }
+  },
+  {
+    "stat_id": "125",
+    "country_population": "31333962",
+    "total_cases": "2120",
+    "total_deaths": "15",
+    "total_recovered": "795",
+    "active_cases": "1310",
+    "country": {
+      "country_name": "Mozambique"
+    }
+  },
+  {
+    "stat_id": "126",
+    "country_population": "12981546",
+    "total_cases": "2111",
+    "total_deaths": "5",
+    "total_recovered": "1258",
+    "active_cases": "848",
+    "country": {
+      "country_name": "Rwanda"
+    }
+  },
+  {
+    "stat_id": "127",
+    "country_population": "587154",
+    "total_cases": "2096",
+    "total_deaths": "29",
+    "total_recovered": "1446",
+    "active_cases": "621",
+    "country": {
+      "country_name": "Suriname"
+    }
+  },
+  {
+    "stat_id": "128",
+    "country_population": "1972277",
+    "total_cases": "2032",
+    "total_deaths": "27",
+    "total_recovered": "944",
+    "active_cases": "1061",
+    "country": {
+      "country_name": "Guinea-Bissau"
+    }
+  },
+  {
+    "stat_id": "129",
+    "country_population": "12151976",
+    "total_cases": "1936",
+    "total_deaths": "38",
+    "total_recovered": "1600",
+    "active_cases": "298",
+    "country": {
+      "country_name": "Benin"
+    }
+  },
+  {
+    "stat_id": "130",
+    "country_population": "341465",
+    "total_cases": "1930",
+    "total_deaths": "10",
+    "total_recovered": "1825",
+    "active_cases": "95",
+    "country": {
+      "country_name": "Iceland"
+    }
+  },
+  {
+    "stat_id": "131",
+    "country_population": "7992169",
+    "total_cases": "1877",
+    "total_deaths": "67",
+    "total_recovered": "1427",
+    "active_cases": "383",
+    "country": {
+      "country_name": "Sierra Leone"
+    }
+  },
+  {
+    "stat_id": "132",
+    "country_population": "29886897",
+    "total_cases": "1768",
+    "total_deaths": "508",
+    "total_recovered": "898",
+    "active_cases": "362",
+    "country": {
+      "country_name": "Yemen"
+    }
+  },
+  {
+    "stat_id": "133",
+    "country_population": "11830801",
+    "total_cases": "1642",
+    "total_deaths": "51",
+    "total_recovered": "1241",
+    "active_cases": "350",
+    "country": {
+      "country_name": "Tunisia"
+    }
+  },
+  {
+    "stat_id": "134",
+    "country_population": "5002100",
+    "total_cases": "1569",
+    "total_deaths": "22",
+    "total_recovered": "1524",
+    "active_cases": "23",
+    "country": {
+      "country_name": "New Zealand"
+    }
+  },
+  {
+    "stat_id": "135",
+    "country_population": "32956300",
+    "total_cases": "1483",
+    "total_deaths": "64",
+    "total_recovered": "520",
+    "active_cases": "899",
+    "country": {
+      "country_name": "Angola"
+    }
+  },
+  {
+    "stat_id": "136",
+    "country_population": "3474956",
+    "total_cases": "1318",
+    "total_deaths": "37",
+    "total_recovered": "1079",
+    "active_cases": "202",
+    "country": {
+      "country_name": "Uruguay"
+    }
+  },
+  {
+    "stat_id": "137",
+    "country_population": "1883936",
+    "total_cases": "1275",
+    "total_deaths": "32",
+    "total_recovered": "1070",
+    "active_cases": "173",
+    "country": {
+      "country_name": "Latvia"
+    }
+  },
+  {
+    "stat_id": "138",
+    "country_population": "10213138",
+    "total_cases": "1232",
+    "total_deaths": "11",
+    "total_recovered": "1171",
+    "active_cases": "50",
+    "country": {
+      "country_name": "Jordan"
+    }
+  },
+  {
+    "stat_id": "139",
+    "country_population": "5068618",
+    "total_cases": "1224",
+    "total_deaths": "78",
+    "total_recovered": "705",
+    "active_cases": "441",
+    "country": {
+      "country_name": "Liberia"
+    }
+  },
+  {
+    "stat_id": "140",
+    "country_population": "45867852",
+    "total_cases": "1223",
+    "total_deaths": "5",
+    "total_recovered": "1102",
+    "active_cases": "116",
+    "country": {
+      "country_name": "Uganda"
+    }
+  },
+  {
+    "stat_id": "141",
+    "country_population": "1208238",
+    "total_cases": "1208",
+    "total_deaths": "19",
+    "total_recovered": "856",
+    "active_cases": "333",
+    "country": {
+      "country_name": "Cyprus"
+    }
+  },
+  {
+    "stat_id": "142",
+    "country_population": "3988368",
+    "total_cases": "1206",
+    "total_deaths": "17",
+    "total_recovered": "987",
+    "active_cases": "202",
+    "country": {
+      "country_name": "Georgia"
+    }
+  },
+  {
+    "stat_id": "143",
+    "country_population": "20954852",
+    "total_cases": "1158",
+    "total_deaths": "54",
+    "total_recovered": "961",
+    "active_cases": "143",
+    "country": {
+      "country_name": "Burkina Faso"
+    }
+  },
+  {
+    "stat_id": "144",
+    "country_population": "24281433",
+    "total_cases": "1153",
+    "total_deaths": "69",
+    "total_recovered": "1057",
+    "active_cases": "27",
+    "country": {
+      "country_name": "Niger"
+    }
+  },
+  {
+    "stat_id": "145",
+    "country_population": "8296582",
+    "total_cases": "1012",
+    "total_deaths": "22",
+    "total_recovered": "697",
+    "active_cases": "293",
+    "country": {
+      "country_name": "Togo"
+    }
+  },
+  {
+    "stat_id": "146",
+    "country_population": "17539600",
+    "total_cases": "999",
+    "total_deaths": "48",
+    "total_recovered": "311",
+    "active_cases": "640",
+    "country": {
+      "country_name": "Syria"
+    }
+  },
+  {
+    "stat_id": "147",
+    "country_population": "2962478",
+    "total_cases": "958",
+    "total_deaths": "12",
+    "total_recovered": "745",
+    "active_cases": "201",
+    "country": {
+      "country_name": "Jamaica"
+    }
+  },
+  {
+    "stat_id": "148",
+    "country_population": "441663",
+    "total_cases": "946",
+    "total_deaths": "9",
+    "total_recovered": "670",
+    "active_cases": "267",
+    "country": {
+      "country_name": "Malta"
+    }
+  },
+  {
+    "stat_id": "149",
+    "country_population": "77278",
+    "total_cases": "944",
+    "total_deaths": "52",
+    "total_recovered": "828",
+    "active_cases": "64",
+    "country": {
+      "country_name": "Andorra"
+    }
+  },
+  {
+    "stat_id": "150",
+    "country_population": "16467965",
+    "total_cases": "942",
+    "total_deaths": "76",
+    "total_recovered": "838",
+    "active_cases": "28",
+    "country": {
+      "country_name": "Chad"
+    }
+  },
+  {
+    "stat_id": "151",
+    "country_population": "2422754",
+    "total_cases": "935",
+    "total_deaths": "16",
+    "total_recovered": "136",
+    "active_cases": "783",
+    "country": {
+      "country_name": "Gambia"
+    }
+  },
+  {
+    "stat_id": "152",
+    "country_population": "219544",
+    "total_cases": "878",
+    "total_deaths": "15",
+    "total_recovered": "797",
+    "active_cases": "66",
+    "country": {
+      "country_name": "Sao Tome and Principe"
+    }
+  },
+  {
+    "stat_id": "153",
+    "country_population": "2356075",
+    "total_cases": "804",
+    "total_deaths": "2",
+    "total_recovered": "63",
+    "active_cases": "739",
+    "country": {
+      "country_name": "Botswana"
+    }
+  },
+  {
+    "stat_id": "154",
+    "country_population": "393616",
+    "total_cases": "761",
+    "total_deaths": "14",
+    "total_recovered": "91",
+    "active_cases": "656",
+    "country": {
+      "country_name": "Bahamas"
+    }
+  },
+  {
+    "stat_id": "155",
+    "country_population": "97425470",
+    "total_cases": "747",
+    "total_deaths": "10",
+    "total_recovered": "392",
+    "active_cases": "345",
+    "country": {
+      "country_name": "Vietnam"
+    }
+  },
+  {
+    "stat_id": "156",
+    "country_population": "2143943",
+    "total_cases": "742",
+    "total_deaths": "23",
+    "total_recovered": "175",
+    "active_cases": "544",
+    "country": {
+      "country_name": "Lesotho"
+    }
+  },
+  {
+    "stat_id": "157",
+    "country_population": "0",
+    "total_cases": "712",
+    "total_deaths": "13",
+    "total_recovered": "651",
+    "active_cases": "48",
+    "country": {
+      "country_name": "Diamond Princess"
+    }
+  },
+  {
+    "stat_id": "158",
+    "country_population": "33938",
+    "total_cases": "699",
+    "total_deaths": "42",
+    "total_recovered": "657",
+    "active_cases": "0",
+    "country": {
+      "country_name": "San Marino"
+    }
+  },
+  {
+    "stat_id": "159",
+    "country_population": "895952",
+    "total_cases": "671",
+    "total_deaths": "5",
+    "total_recovered": "592",
+    "active_cases": "74",
+    "country": {
+      "country_name": "RĂ©union"
+    }
+  },
+  {
+    "stat_id": "160",
+    "country_population": "174022",
+    "total_cases": "597",
+    "total_deaths": "47",
+    "total_recovered": "533",
+    "active_cases": "17",
+    "country": {
+      "country_name": "Channel Islands"
+    }
+  },
+  {
+    "stat_id": "161",
+    "country_population": "786936",
+    "total_cases": "538",
+    "total_deaths": "22",
+    "total_recovered": "189",
+    "active_cases": "327",
+    "country": {
+      "country_name": "Guyana"
+    }
+  },
+  {
+    "stat_id": "162",
+    "country_population": "59886383",
+    "total_cases": "509",
+    "total_deaths": "21",
+    "total_recovered": "183",
+    "active_cases": "305",
+    "country": {
+      "country_name": "Tanzania"
+    }
+  },
+  {
+    "stat_id": "163",
+    "country_population": "23821199",
+    "total_cases": "477",
+    "total_deaths": "7",
+    "total_recovered": "443",
+    "active_cases": "27",
+    "country": {
+      "country_name": "Taiwan"
+    }
+  },
+  {
+    "stat_id": "164",
+    "country_population": "871326",
+    "total_cases": "396",
+    "total_deaths": "7",
+    "total_recovered": "340",
+    "active_cases": "49",
+    "country": {
+      "country_name": "Comoros"
+    }
+  },
+  {
+    "stat_id": "165",
+    "country_population": "11922216",
+    "total_cases": "395",
+    "total_deaths": "1",
+    "total_recovered": "304",
+    "active_cases": "90",
+    "country": {
+      "country_name": "Burundi"
+    }
+  },
+  {
+    "stat_id": "166",
+    "country_population": "54446389",
+    "total_cases": "357",
+    "total_deaths": "6",
+    "total_recovered": "308",
+    "active_cases": "43",
+    "country": {
+      "country_name": "Myanmar"
+    }
+  },
+  {
+    "stat_id": "167",
+    "country_population": "1271985",
+    "total_cases": "344",
+    "total_deaths": "10",
+    "total_recovered": "334",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Mauritius"
+    }
+  },
+  {
+    "stat_id": "168",
+    "country_population": "85078",
+    "total_cases": "336",
+    "total_deaths": "24",
+    "total_recovered": "312",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Isle of Man"
+    }
+  },
+  {
+    "stat_id": "169",
+    "country_population": "3283344",
+    "total_cases": "293",
+    "total_deaths": "0",
+    "total_recovered": "260",
+    "active_cases": "33",
+    "country": {
+      "country_name": "Mongolia"
+    }
+  },
+  {
+    "stat_id": "170",
+    "country_population": "3551175",
+    "total_cases": "282",
+    "total_deaths": "0",
+    "total_recovered": "225",
+    "active_cases": "57",
+    "country": {
+      "country_name": "Eritrea"
+    }
+  },
+  {
+    "stat_id": "171",
+    "country_population": "400131",
+    "total_cases": "279",
+    "total_deaths": "14",
+    "total_recovered": "179",
+    "active_cases": "86",
+    "country": {
+      "country_name": "Guadeloupe"
+    }
+  },
+  {
+    "stat_id": "172",
+    "country_population": "375235",
+    "total_cases": "276",
+    "total_deaths": "15",
+    "total_recovered": "98",
+    "active_cases": "163",
+    "country": {
+      "country_name": "Martinique"
+    }
+  },
+  {
+    "stat_id": "173",
+    "country_population": "48882",
+    "total_cases": "266",
+    "total_deaths": "0",
+    "total_recovered": "192",
+    "active_cases": "74",
+    "country": {
+      "country_name": "Faeroe Islands"
+    }
+  },
+  {
+    "stat_id": "174",
+    "country_population": "106812",
+    "total_cases": "263",
+    "total_deaths": "3",
+    "total_recovered": "114",
+    "active_cases": "146",
+    "country": {
+      "country_name": "Aruba"
+    }
+  },
+  {
+    "stat_id": "175",
+    "country_population": "16741375",
+    "total_cases": "243",
+    "total_deaths": "0",
+    "total_recovered": "210",
+    "active_cases": "33",
+    "country": {
+      "country_name": "Cambodia"
+    }
+  },
+  {
+    "stat_id": "176",
+    "country_population": "1399950",
+    "total_cases": "210",
+    "total_deaths": "8",
+    "total_recovered": "135",
+    "active_cases": "67",
+    "country": {
+      "country_name": "Trinidad and Tobago"
+    }
+  },
+  {
+    "stat_id": "177",
+    "country_population": "65798",
+    "total_cases": "203",
+    "total_deaths": "1",
+    "total_recovered": "202",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Cayman Islands"
+    }
+  },
+  {
+    "stat_id": "178",
+    "country_population": "33690",
+    "total_cases": "190",
+    "total_deaths": "0",
+    "total_recovered": "184",
+    "active_cases": "6",
+    "country": {
+      "country_name": "Gibraltar"
+    }
+  },
+  {
+    "stat_id": "179",
+    "country_population": "8963009",
+    "total_cases": "163",
+    "total_deaths": "3",
+    "total_recovered": "53",
+    "active_cases": "107",
+    "country": {
+      "country_name": "Papua New Guinea"
+    }
+  },
+  {
+    "stat_id": "180",
+    "country_population": "42924",
+    "total_cases": "160",
+    "total_deaths": "16",
+    "total_recovered": "64",
+    "active_cases": "80",
+    "country": {
+      "country_name": "Sint Maarten"
+    }
+  },
+  {
+    "stat_id": "181",
+    "country_population": "62254",
+    "total_cases": "157",
+    "total_deaths": "9",
+    "total_recovered": "144",
+    "active_cases": "4",
+    "country": {
+      "country_name": "Bermuda"
+    }
+  },
+  {
+    "stat_id": "182",
+    "country_population": "437893",
+    "total_cases": "141",
+    "total_deaths": "3",
+    "total_recovered": "138",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Brunei "
+    }
+  },
+  {
+    "stat_id": "183",
+    "country_population": "287411",
+    "total_cases": "133",
+    "total_deaths": "7",
+    "total_recovered": "100",
+    "active_cases": "26",
+    "country": {
+      "country_name": "Barbados"
+    }
+  },
+  {
+    "stat_id": "184",
+    "country_population": "38768",
+    "total_cases": "129",
+    "total_deaths": "2",
+    "total_recovered": "39",
+    "active_cases": "88",
+    "country": {
+      "country_name": "Turks and Caicos"
+    }
+  },
+  {
+    "stat_id": "185",
+    "country_population": "98408",
+    "total_cases": "126",
+    "total_deaths": "0",
+    "total_recovered": "124",
+    "active_cases": "2",
+    "country": {
+      "country_name": "Seychelles"
+    }
+  },
+  {
+    "stat_id": "186",
+    "country_population": "39270",
+    "total_cases": "125",
+    "total_deaths": "4",
+    "total_recovered": "105",
+    "active_cases": "16",
+    "country": {
+      "country_name": "Monaco"
+    }
+  },
+  {
+    "stat_id": "187",
+    "country_population": "772443",
+    "total_cases": "105",
+    "total_deaths": "0",
+    "total_recovered": "93",
+    "active_cases": "12",
+    "country": {
+      "country_name": "Bhutan"
+    }
+  },
+  {
+    "stat_id": "188",
+    "country_population": "98010",
+    "total_cases": "92",
+    "total_deaths": "3",
+    "total_recovered": "76",
+    "active_cases": "13",
+    "country": {
+      "country_name": "Antigua and Barbuda"
+    }
+  },
+  {
+    "stat_id": "189",
+    "country_population": "38139",
+    "total_cases": "89",
+    "total_deaths": "1",
+    "total_recovered": "85",
+    "active_cases": "3",
+    "country": {
+      "country_name": "Liechtenstein"
+    }
+  },
+  {
+    "stat_id": "190",
+    "country_population": "398312",
+    "total_cases": "86",
+    "total_deaths": "2",
+    "total_recovered": "31",
+    "active_cases": "53",
+    "country": {
+      "country_name": "Belize"
+    }
+  },
+  {
+    "stat_id": "191",
+    "country_population": "281072",
+    "total_cases": "64",
+    "total_deaths": "0",
+    "total_recovered": "62",
+    "active_cases": "2",
+    "country": {
+      "country_name": "French Polynesia"
+    }
+  },
+  {
+    "stat_id": "192",
+    "country_population": "110976",
+    "total_cases": "56",
+    "total_deaths": "0",
+    "total_recovered": "46",
+    "active_cases": "10",
+    "country": {
+      "country_name": "St. Vincent Grenadines"
+    }
+  },
+  {
+    "stat_id": "193",
+    "country_population": "38729",
+    "total_cases": "53",
+    "total_deaths": "3",
+    "total_recovered": "41",
+    "active_cases": "9",
+    "country": {
+      "country_name": "Saint Martin"
+    }
+  },
+  {
+    "stat_id": "194",
+    "country_population": "650193",
+    "total_cases": "46",
+    "total_deaths": "0",
+    "total_recovered": "46",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Macao"
+    }
+  },
+  {
+    "stat_id": "195",
+    "country_population": "164161",
+    "total_cases": "31",
+    "total_deaths": "1",
+    "total_recovered": "28",
+    "active_cases": "2",
+    "country": {
+      "country_name": "CuraĂ§ao"
+    }
+  },
+  {
+    "stat_id": "196",
+    "country_population": "897095",
+    "total_cases": "27",
+    "total_deaths": "1",
+    "total_recovered": "18",
+    "active_cases": "8",
+    "country": {
+      "country_name": "Fiji"
+    }
+  },
+  {
+    "stat_id": "197",
+    "country_population": "183712",
+    "total_cases": "25",
+    "total_deaths": "0",
+    "total_recovered": "24",
+    "active_cases": "1",
+    "country": {
+      "country_name": "Saint Lucia"
+    }
+  },
+  {
+    "stat_id": "198",
+    "country_population": "1320812",
+    "total_cases": "25",
+    "total_deaths": "0",
+    "total_recovered": "24",
+    "active_cases": "1",
+    "country": {
+      "country_name": "Timor-Leste"
+    }
+  },
+  {
+    "stat_id": "199",
+    "country_population": "112576",
+    "total_cases": "24",
+    "total_deaths": "0",
+    "total_recovered": "23",
+    "active_cases": "1",
+    "country": {
+      "country_name": "Grenada"
+    }
+  },
+  {
+    "stat_id": "200",
+    "country_population": "285769",
+    "total_cases": "22",
+    "total_deaths": "0",
+    "total_recovered": "22",
+    "active_cases": "0",
+    "country": {
+      "country_name": "New Caledonia"
+    }
+  },
+  {
+    "stat_id": "201",
+    "country_population": "7285750",
+    "total_cases": "20",
+    "total_deaths": "0",
+    "total_recovered": "19",
+    "active_cases": "1",
+    "country": {
+      "country_name": "Laos"
+    }
+  },
+  {
+    "stat_id": "202",
+    "country_population": "72004",
+    "total_cases": "18",
+    "total_deaths": "0",
+    "total_recovered": "18",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Dominica"
+    }
+  },
+  {
+    "stat_id": "203",
+    "country_population": "53237",
+    "total_cases": "17",
+    "total_deaths": "0",
+    "total_recovered": "16",
+    "active_cases": "1",
+    "country": {
+      "country_name": "Saint Kitts and Nevis"
+    }
+  },
+  {
+    "stat_id": "204",
+    "country_population": "56780",
+    "total_cases": "14",
+    "total_deaths": "0",
+    "total_recovered": "14",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Greenland"
+    }
+  },
+  {
+    "stat_id": "205",
+    "country_population": "4992",
+    "total_cases": "13",
+    "total_deaths": "1",
+    "total_recovered": "10",
+    "active_cases": "2",
+    "country": {
+      "country_name": "Montserrat"
+    }
+  },
+  {
+    "stat_id": "206",
+    "country_population": "26247",
+    "total_cases": "13",
+    "total_deaths": "0",
+    "total_recovered": "7",
+    "active_cases": "6",
+    "country": {
+      "country_name": "Caribbean Netherlands"
+    }
+  },
+  {
+    "stat_id": "207",
+    "country_population": "3489",
+    "total_cases": "13",
+    "total_deaths": "0",
+    "total_recovered": "13",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Falkland Islands"
+    }
+  },
+  {
+    "stat_id": "208",
+    "country_population": "801",
+    "total_cases": "12",
+    "total_deaths": "0",
+    "total_recovered": "12",
+    "active_cases": "0",
+    "country": {
+      "country_name": "Vatican City"
+    }
+  },
+  {
+    "stat_id": "209",
+    "country_population": "598682",
+    "total_cases": "10",
+    "total_deaths": "1",
+    "total_recovered": "8",
+    "active_cases": "1",
+    "country": {
+      "country_name": "Western Sahara"
+    }
+  }
+]
