@@ -6,6 +6,7 @@ import lombok.SneakyThrows;
 import org.example.Connection.ContinentConnection;
 import org.example.Connection.Repsonse.ContinentResponse;
 import org.example.Connection.Repsonse.StatResponse;
+import org.example.Connection.SoapConnection;
 import org.example.Connection.StatisticsConnection;
 import org.example.Filtration.FiltrationStatResponse;
 import org.example.JSON.JsonOperations;
@@ -35,6 +36,10 @@ public class TableJsonPane extends JPanel implements ActionListener {
     private JButton filterButton;
     private JLabel filterLabel;
     private JComboBox continentComboBox;
+    private JTextField deathsField;
+    private JButton deathsButton;
+    private JLabel soapButton;
+    private JLabel deathsLabel;
     private DefaultTableModel model;
     private List<StatResponse> stats;
 
@@ -45,6 +50,7 @@ public class TableJsonPane extends JPanel implements ActionListener {
         exportJson.addActionListener(this);
         importJson.addActionListener(this);
         filterButton.addActionListener(this);
+        deathsButton.addActionListener(this);
 
         createTable();
         setNumberModelForSpinner();
@@ -90,14 +96,13 @@ public class TableJsonPane extends JPanel implements ActionListener {
                 });
 
                 int statusCode = StatisticsConnection.updateStatistics(stats);
-                if(statusCode == 401){
+                if (statusCode == 401) {
                     Dialogs.showFailedPermission();
-                }else {
+                } else {
                     completeRowsInTable();
                     Dialogs.showUpdateInformation();
                 }
             }
-
 
 
         } else if (source.equals(filterButton)) {
@@ -109,6 +114,13 @@ public class TableJsonPane extends JPanel implements ActionListener {
             model.setRowCount(0);
             stats = FiltrationStatResponse.filterData(continent, country, deaths);
             completeRowsInTable();
+        } else if (source.equals(deathsButton)) {
+
+            String country = deathsField.getText();
+
+            Integer result = SoapConnection.getDeathsByCountry(country);
+
+            deathsLabel.setText("Deaths in " + country + ": " + result);
         }
     }
 
@@ -138,7 +150,7 @@ public class TableJsonPane extends JPanel implements ActionListener {
     }
 
     public void setNumberModelForSpinner() {
-        SpinnerNumberModel numberModel = new SpinnerNumberModel(-1, -1, 2000000000, 1);
+        SpinnerNumberModel numberModel = new SpinnerNumberModel(0, 0, 2000000000, 1);
         deathsSpinner.setModel(numberModel);
     }
 
@@ -156,6 +168,9 @@ public class TableJsonPane extends JPanel implements ActionListener {
         countryTextField.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
+
+                continentComboBox.setSelectedItem("");
+
                 super.keyTyped(e);
                 char c = e.getKeyChar();
                 if (Character.isLetter(c) || Character.isWhitespace(c) || Character.isISOControl(c)) {

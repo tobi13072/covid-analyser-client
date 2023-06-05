@@ -2,16 +2,14 @@ package org.example.UI;
 
 import lombok.Getter;
 import lombok.SneakyThrows;
-import org.example.Main;
+import org.example.Connection.SoapConnection;
 
-import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Objects;
 
 
@@ -21,12 +19,14 @@ public class HomePage extends JFrame implements ActionListener {
     private JPanel homePanel;
     private JButton jsonOperationsButton;
     private JButton exitButton;
+    private JButton deathsButton;
     private LoginPage login;
     public final String TITLE = "COVID ANALYSER";
 
     public HomePage() throws IOException {
         setTitle(TITLE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setSize(1300,1000);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         BufferedImage image = Objects.requireNonNull(Icon.getIcon()).orElseThrow(RuntimeException::new);
@@ -54,6 +54,7 @@ public class HomePage extends JFrame implements ActionListener {
             TableXmlPane table = new TableXmlPane(this);
             setContentPane(table.getXmlPanel());
             revalidate();
+
         } else if (source.equals(jsonOperationsButton)) {
             TableJsonPane table = new TableJsonPane(this);
             setContentPane(table.getJsonPanel());
