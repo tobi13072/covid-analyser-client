@@ -13,7 +13,7 @@ import java.net.http.HttpResponse;
 import java.util.List;
 
 
-public class StatisticsConnection{
+public class StatisticsConnection {
     private static final String AUTH = "Authorization";
 
     public static List<StatResponse> getAllStatistics() throws IOException, URISyntaxException, InterruptedException {
@@ -69,7 +69,7 @@ public class StatisticsConnection{
 
     public static List<StatResponse> getFilteredByCountry(String country) throws URISyntaxException, IOException, InterruptedException {
 
-        country = country.replace(" ","+");
+        country = country.replace(" ", "+");
 
         String BEARER = Connection.readToken();
         String url = "http://localhost:8080/stats/country?country=" + country + "&";

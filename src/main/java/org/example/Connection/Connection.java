@@ -19,7 +19,8 @@ import java.net.http.HttpResponse;
 public class Connection {
     private static final String BASE_URL = "http://localhost:8080/";
     private String token;
-    public Integer login(String username,String password) throws IOException, InterruptedException {
+
+    public Integer login(String username, String password) throws IOException, InterruptedException {
 
         HttpClient client = HttpClient.newHttpClient();
 
@@ -40,7 +41,7 @@ public class Connection {
 
         int statusCode = response.statusCode();
 
-        if(statusCode==200){
+        if (statusCode == 200) {
             token = LoginParser.parseLogin(response);
         }
 
@@ -51,7 +52,7 @@ public class Connection {
 
 
     public void writeToken(int statusCode) throws IOException {
-        if(statusCode == 200){
+        if (statusCode == 200) {
             FileWriter fileWriter = new FileWriter("token.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             bufferedWriter.write(token);

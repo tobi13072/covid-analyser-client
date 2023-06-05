@@ -15,7 +15,8 @@ import java.util.List;
 @NoArgsConstructor
 public class ContinentConnection {
     private static final String AUTH = "Authorization";
-    public static List<ContinentResponse> getAllContinent()  throws IOException, URISyntaxException, InterruptedException{
+
+    public static List<ContinentResponse> getAllContinent() throws IOException, URISyntaxException, InterruptedException {
 
         String BEARER = Connection.readToken();
         HttpClient httpClient = HttpClient.newHttpClient();
@@ -26,7 +27,7 @@ public class ContinentConnection {
 
         HttpResponse<String> response = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
 
-        List<ContinentResponse> continentResponseList= ContinentParser.parseContinent(response);
+        List<ContinentResponse> continentResponseList = ContinentParser.parseContinent(response);
 
         return continentResponseList;
     }

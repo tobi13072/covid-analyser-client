@@ -7,11 +7,11 @@ import org.example.Connection.Repsonse.StatResponse;
 import java.util.List;
 
 public class DeserializerStatResponse {
-    public static String deserializerStats(List<StatResponse> stats){
+    public static String deserializerStats(List<StatResponse> stats) {
 
         JsonArray jsonArray = new JsonArray();
 
-        for(StatResponse element: stats){
+        for (StatResponse element : stats) {
             JsonObject jsonBody = new JsonObject();
             jsonBody.addProperty("stat_id", element.getStatId());
             jsonBody.addProperty("country_population", element.getCountryPopulation());
@@ -23,7 +23,7 @@ public class DeserializerStatResponse {
             JsonObject jsonCountry = new JsonObject();
             jsonCountry.addProperty("country_name", element.getCountry().getCountryName());
 
-            jsonBody.add("country",jsonCountry);
+            jsonBody.add("country", jsonCountry);
             jsonArray.add(jsonBody);
         }
 

@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class JsonOperations<T> {
-    public void exportJson(List<T> data,File file) throws IOException {
+    public void exportJson(List<T> data, File file) throws IOException {
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 

@@ -7,7 +7,7 @@ import java.net.http.HttpResponse;
 
 public class LoginParser {
 
-    public static String parseLogin(HttpResponse<String> response){
+    public static String parseLogin(HttpResponse<String> response) {
 
         JsonObject jsonObject = JsonParser.parseString(response.body()).getAsJsonObject();
 

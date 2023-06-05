@@ -13,15 +13,15 @@ public class FiltrationStatResponse {
 
         List<StatResponse> stats = new ArrayList<>();
 
-        if(!country.isEmpty()){
+        if (!country.isEmpty()) {
             stats = StatisticsConnection.getFilteredByCountry(country);
-        }else if (!continent.isEmpty() && country.isEmpty() && deaths.equals("0")){
+        } else if (!continent.isEmpty() && country.isEmpty() && deaths.equals("0")) {
             stats = StatisticsConnection.getFilteredByContinent(continent);
         } else if (continent.isEmpty() && country.isEmpty() && !deaths.equals("0")) {
             stats = StatisticsConnection.getFilteredByDeaths(deaths);
-        }else if(!continent.isEmpty() && country.isEmpty() && !deaths.equals("0")){
-            stats = StatisticsConnection.getFilteredStatistics(continent,deaths);
-        }else {
+        } else if (!continent.isEmpty() && country.isEmpty() && !deaths.equals("0")) {
+            stats = StatisticsConnection.getFilteredStatistics(continent, deaths);
+        } else {
             stats = StatisticsConnection.getAllStatistics();
         }
 

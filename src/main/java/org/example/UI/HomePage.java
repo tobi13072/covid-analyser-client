@@ -2,7 +2,6 @@ package org.example.UI;
 
 import lombok.Getter;
 import lombok.SneakyThrows;
-import org.example.Connection.SoapConnection;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -19,14 +18,13 @@ public class HomePage extends JFrame implements ActionListener {
     private JPanel homePanel;
     private JButton jsonOperationsButton;
     private JButton exitButton;
-    private JButton deathsButton;
     private LoginPage login;
     public final String TITLE = "COVID ANALYSER";
 
     public HomePage() throws IOException {
         setTitle(TITLE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
-        setSize(1300,1000);
+        setSize(1300, 1000);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         BufferedImage image = Objects.requireNonNull(Icon.getIcon()).orElseThrow(RuntimeException::new);

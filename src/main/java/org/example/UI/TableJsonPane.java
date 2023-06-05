@@ -105,7 +105,7 @@ public class TableJsonPane extends JPanel implements ActionListener {
                 if (statusCode == 401) {
                     Dialogs.showFailedPermission();
                 }
-                if(statusCode == 200){
+                if (statusCode == 200) {
                     completeRowsInTable();
                     Dialogs.showUpdateInformation();
                 }
@@ -126,9 +126,9 @@ public class TableJsonPane extends JPanel implements ActionListener {
 
             Integer result = SoapConnection.getDeathsByCountry(country);
 
-            if(result != -1) {
+            if (result != -1) {
                 deathsLabel.setText("Deaths in " + country + ": " + result);
-            }else {
+            } else {
                 deathsLabel.setText("Incorrect country name");
             }
         }

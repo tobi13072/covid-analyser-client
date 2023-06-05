@@ -95,19 +95,19 @@ public class TableXmlPane extends JPanel implements ActionListener {
             if (statusCode == 401) {
                 Dialogs.showFailedPermission();
             }
-            if(statusCode == 200){
+            if (statusCode == 200) {
                 completeRowsInTable();
                 Dialogs.showUpdateInformation();
             }
 
-        }else if(source.equals(filterButton)){
+        } else if (source.equals(filterButton)) {
 
             String continent = continentComboBox.getSelectedItem().toString();
             String country = countryTextField.getText();
             String deaths = deathsSpinner.getValue().toString();
 
             model.setRowCount(0);
-            stats = FiltrationStatResponse.filterData(continent,country,deaths);
+            stats = FiltrationStatResponse.filterData(continent, country, deaths);
             completeRowsInTable();
         }
 

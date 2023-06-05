@@ -15,18 +15,6 @@ import java.io.StringReader;
 public class SoapParser {
     public static Integer parseDeaths(String xml) throws IOException, SAXException, ParserConfigurationException {
 
-        /*String xml = "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">\n" +
-                "    <SOAP-ENV:Header/>\n" +
-                "    <SOAP-ENV:Body>\n" +
-                "        <ns3:getDeathsResponse xmlns:ns3=\"http://lizewski.com/soap\">\n" +
-                "            <deaths>\n" +
-                "                <country>Poland</country>\n" +
-                "                <total>1234</total>\n" +
-                "            </deaths>\n" +
-                "        </ns3:getDeathsResponse>\n" +
-                "    </SOAP-ENV:Body>\n" +
-                "</SOAP-ENV:Envelope>";*/
-
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document document = builder.parse(new InputSource(new StringReader(xml)));
@@ -37,9 +25,8 @@ public class SoapParser {
             Element totalElement = (Element) totalList.item(0);
             String totalValue = totalElement.getTextContent();
             deathsTotal = Integer.parseInt(totalValue);
-            System.out.println("Liczba zgonów: " + deathsTotal);
         } else {
-            System.out.println("Nie znaleziono elementu <total>.");
+            System.out.println("BLAD SOAP.");
         }
         return deathsTotal;
     }

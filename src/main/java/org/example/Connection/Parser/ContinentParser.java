@@ -13,14 +13,14 @@ import java.util.List;
 @NoArgsConstructor
 public class ContinentParser {
 
-    public static List<ContinentResponse> parseContinent(HttpResponse<String> response){
+    public static List<ContinentResponse> parseContinent(HttpResponse<String> response) {
 
         JsonArray jsonArray = JsonParser.parseString(response.body()).getAsJsonArray();
 
         List<ContinentResponse> continentResponseList = new ArrayList<>();
 
 
-        for (JsonElement jsonElement : jsonArray){
+        for (JsonElement jsonElement : jsonArray) {
             Integer continentId = jsonElement.getAsJsonObject().get("continent_id").getAsInt();
             String continentName = jsonElement.getAsJsonObject().get("continent_name").getAsString();
 
