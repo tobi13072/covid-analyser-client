@@ -101,9 +101,11 @@ public class TableJsonPane extends JPanel implements ActionListener {
                 });
 
                 int statusCode = StatisticsConnection.updateStatistics(stats);
+
                 if (statusCode == 401) {
                     Dialogs.showFailedPermission();
-                } else {
+                }
+                if(statusCode == 200){
                     completeRowsInTable();
                     Dialogs.showUpdateInformation();
                 }

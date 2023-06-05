@@ -92,12 +92,14 @@ public class TableXmlPane extends JPanel implements ActionListener {
             }
 
             int statusCode = StatisticsConnection.updateStatistics(stats);
-            if(statusCode == 401){
+            if (statusCode == 401) {
                 Dialogs.showFailedPermission();
-            }else {
+            }
+            if(statusCode == 200){
                 completeRowsInTable();
                 Dialogs.showUpdateInformation();
             }
+
         }else if(source.equals(filterButton)){
 
             String continent = continentComboBox.getSelectedItem().toString();
@@ -137,7 +139,7 @@ public class TableXmlPane extends JPanel implements ActionListener {
     }
 
     public void setNumberModelForSpinner() {
-        SpinnerNumberModel numberModel = new SpinnerNumberModel(-1, -1, 2000000000, 1);
+        SpinnerNumberModel numberModel = new SpinnerNumberModel(0, 0, 2000000000, 1);
         deathsSpinner.setModel(numberModel);
     }
 
