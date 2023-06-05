@@ -11,9 +11,13 @@ import org.example.XML.RootXml;
 import org.example.XML.XmlOperations;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.FocusAdapter;
+import java.awt.event.FocusEvent;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -146,11 +150,15 @@ public class TableXmlPane extends JPanel implements ActionListener {
         }
     }
 
-    public void addValidationToTextField(){
+    public void addValidationToTextField() {
 
         countryTextField.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
+
+                continentComboBox.setSelectedItem("");
+                deathsSpinner.setValue(0);
+
                 super.keyTyped(e);
                 char c = e.getKeyChar();
                 if (Character.isLetter(c) || Character.isWhitespace(c) || Character.isISOControl(c)) {
@@ -159,6 +167,22 @@ public class TableXmlPane extends JPanel implements ActionListener {
                     countryTextField.setEditable(false);
                     countryTextField.setEnabled(true);
                 }
+            }
+        });
+
+
+        continentComboBox.addFocusListener(new FocusAdapter() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                super.focusGained(e);
+                countryTextField.setText("");
+            }
+        });
+
+        deathsSpinner.addChangeListener(new ChangeListener() {
+            @Override
+            public void stateChanged(ChangeEvent e) {
+                countryTextField.setText("");
             }
         });
     }

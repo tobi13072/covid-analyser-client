@@ -12,9 +12,13 @@ import org.example.Filtration.FiltrationStatResponse;
 import org.example.JSON.JsonOperations;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.FocusAdapter;
+import java.awt.event.FocusEvent;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -59,6 +63,7 @@ public class TableJsonPane extends JPanel implements ActionListener {
 
         stats = StatisticsConnection.getAllStatistics();
         completeRowsInTable();
+
     }
 
 
@@ -104,7 +109,6 @@ public class TableJsonPane extends JPanel implements ActionListener {
                 }
             }
 
-
         } else if (source.equals(filterButton)) {
 
             String continent = continentComboBox.getSelectedItem().toString();
@@ -120,7 +124,11 @@ public class TableJsonPane extends JPanel implements ActionListener {
 
             Integer result = SoapConnection.getDeathsByCountry(country);
 
-            deathsLabel.setText("Deaths in " + country + ": " + result);
+            if(result != -1) {
+                deathsLabel.setText("Deaths in " + country + ": " + result);
+            }else {
+                deathsLabel.setText("Incorrect country name");
+            }
         }
     }
 
@@ -170,6 +178,7 @@ public class TableJsonPane extends JPanel implements ActionListener {
             public void keyTyped(KeyEvent e) {
 
                 continentComboBox.setSelectedItem("");
+                deathsSpinner.setValue(0);
 
                 super.keyTyped(e);
                 char c = e.getKeyChar();
@@ -179,6 +188,22 @@ public class TableJsonPane extends JPanel implements ActionListener {
                     countryTextField.setEditable(false);
                     countryTextField.setEnabled(true);
                 }
+            }
+        });
+
+
+        continentComboBox.addFocusListener(new FocusAdapter() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                super.focusGained(e);
+                countryTextField.setText("");
+            }
+        });
+
+        deathsSpinner.addChangeListener(new ChangeListener() {
+            @Override
+            public void stateChanged(ChangeEvent e) {
+                countryTextField.setText("");
             }
         });
     }
