@@ -12,3 +12,4 @@ Functionalities and libraries used:
 - Using Swing for creating GUI.
 - Lombok
 
+Server: https://github.com/tobi13072/covid-analyser-server
